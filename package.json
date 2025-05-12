@@ -1,39 +1,28 @@
 {
-  "name": "nextjs-template",
+  "name": "military-calculator",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "format:check": "prettier --check .",
-    "format:fix": "prettier --write .",
-    "prepare": "husky"
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.3.0",
+    "@next/third-parties": "^15.3.2",
+    "dayjs": "^1.11.13",
+    "next": "15.3.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "sass": "^1.88.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.0",
-    "@commitlint/config-conventional": "^19.8.0",
     "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.3.0",
-    "eslint-config-prettier": "^10.1.2",
-    "eslint-plugin-prettier": "^5.2.6",
-    "eslint-plugin-simple-import-sort": "^12.1.1",
-    "husky": "^9.1.7",
-    "prettier": "3.5.3",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4",
+    "eslint-config-next": "15.3.2",
     "typescript": "^5"
   }
 }
